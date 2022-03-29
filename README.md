@@ -13,7 +13,7 @@ The more interesing one of the two files is [Nat.agda](Nat.agda), let us show it
 ```agda
 module Nat where
 
-open import Eq
+open import Eq using (_≡_; refl; ≡-symmetry; ≡-transitivity; ≡-congruence)
 
 data ℕ : Set where
     O : ℕ
