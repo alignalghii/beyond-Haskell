@@ -10,5 +10,5 @@ data _≡_ {A : Set} : A → A → Set where
 ≡-transitivity : ∀ {A : Set} {a₁ a₂ a₃ : A} → a₁ ≡ a₂ → a₂ ≡ a₃ → a₁ ≡ a₃
 ≡-transitivity refl refl = refl
 
-leibniz : ∀ {A B : Set} (f : A → B) {a₁ a₂ : A} → a₁ ≡ a₂ → f a₁ ≡ f a₂
-leibniz _ refl = refl
+≡-congruence : ∀ {A B : Set} (f : A → B) {a₁ a₂ : A} → a₁ ≡ a₂ → f a₁ ≡ f a₂
+≡-congruence _ refl = refl
