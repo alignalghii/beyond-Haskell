@@ -17,11 +17,11 @@ m + (S n') = S (m + n')   -- + is  right-recurrible
 
 S-associativity : ∀ (m n : ℕ) → S m + n ≡ m + S n
 
-+-has-left-neutral : ∀ (n : ℕ) → O + n ≡ n
++-has-left-neutral : ∀ (n : ℕ) → O + n ≡ n    -- + has right neutral by definition, having also left neutral is a theorem to be proven
 +-has-left-neutral O      = refl
 +-has-left-neutral (S n') = ≡-congruence S (+-has-left-neutral n')
 
-+-is-left-recurrible : ∀ (m n : ℕ) → S m + n ≡ S (m + n)
++-is-left-recurrible : ∀ (m n : ℕ) → S m + n ≡ S (m + n)    -- + is right-recurrible by definition, being also left-recurrible is a theorem to be proven
 +-is-left-recurrible m O      = refl
 +-is-left-recurrible m (S n') = ≡-congruence S (S-associativity m n')
 
