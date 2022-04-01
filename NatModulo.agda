@@ -1,5 +1,6 @@
 module NatModulo where
 
+open import Combinators using (_∘_)
 open import Eq using (_≡_; refl; ≡-transitivity; ≡-congruence)
 open import Exists using (Exists; witness)
 
@@ -31,5 +32,5 @@ every-even-is-halvable even₀              = witness O refl
 every-even-is-halvable (even₊₂ evennessₙ) with every-even-is-halvable evennessₙ
 ...                                          | witness ½n ½n+½n≡n = witness (S ½n)
                                                                             (≡-transitivity (+-is-left-recurrible ½n (S ½n))
-                                                                                            (≡-congruence S (≡-congruence S ½n+½n≡n))
+                                                                                            (≡-congruence (S ∘ S) ½n+½n≡n)
                                                                             )
