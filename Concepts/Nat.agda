@@ -1,4 +1,4 @@
-module MyData.Nat where
+module Concepts.Nat where
 
 open import Connectives.Eq using (_≡_; refl; ≡-symmetry; ≡-transitivity; ≡-congruence)
 

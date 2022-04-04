@@ -1,7 +1,7 @@
 module Theorems.ListCatamorphism where
 
-open import MyData.List using (List; _∷_; []; foldr)
-open import MyData.List using (List; _∷_; []; foldr)
+open import Concepts.List using (List; _∷_; []; foldr)
+open import Concepts.List using (List; _∷_; []; foldr)
 open import Connectives.Eq using (_≡_; refl; ≡-congruence)
 open import Connectives.Combinators using (_∘_)
 

@@ -1,9 +1,9 @@
 module Theorems.ListSize where
 
-open import MyData.List using (List; []; _∷_; foldr)
-open import MyData.List using (List; []; _∷_; foldr)
-open import MyData.Nat using (ℕ; O; S)
-open import MyData.Nat using (ℕ; O; S)
+open import Concepts.List using (List; []; _∷_; foldr)
+open import Concepts.List using (List; []; _∷_; foldr)
+open import Concepts.Nat using (ℕ; O; S)
+open import Concepts.Nat using (ℕ; O; S)
 open import Connectives.Combinators using (const)
 open import Connectives.Eq using (_≡_; refl; ≡-congruence)
 open import Connectives.Exists using (Sum; Exists; witness)

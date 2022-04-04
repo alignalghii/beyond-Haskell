@@ -1,7 +1,6 @@
-module MyData.NatNotation where
+module Concepts.NatNotation where
 
-open import MyData.Nat
-open import MyData.Nat
+open import Concepts.Nat
 
 
 №0 №1 №2 №3 №4 : ℕ

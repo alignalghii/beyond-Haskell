@@ -1,4 +1,4 @@
-module MyData.List where
+module Concepts.List where
 
 
 data List (A : Set) : Set where

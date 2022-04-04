@@ -4,10 +4,10 @@ open import Connectives.Combinators using (_∘_)
 open import Connectives.Eq using (_≡_; refl; ≡-transitivity; ≡-congruence)
 open import Connectives.Exists using (Exists; witness)
 
-open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
-open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
-open import MyData.NatNotation using (№0; №2; №4)
-open import MyData.NatNotation using (№0; №2; №4)
+open import Concepts.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
+open import Concepts.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
+open import Concepts.NatNotation using (№0; №2; №4)
+open import Concepts.NatNotation using (№0; №2; №4)
 
 
 data Even : ℕ → Set where
