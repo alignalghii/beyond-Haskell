@@ -4,9 +4,9 @@ open import MyData.List using (List; []; _∷_; foldr)
 open import MyData.List using (List; []; _∷_; foldr)
 open import MyData.Nat using (ℕ; O; S)
 open import MyData.Nat using (ℕ; O; S)
-open import Combinators using (const)
-open import Eq using (_≡_; refl; ≡-congruence)
-open import Exists using (Sum; Exists; witness)
+open import Connectives.Combinators using (const)
+open import Connectives.Eq using (_≡_; refl; ≡-congruence)
+open import Connectives.Exists using (Sum; Exists; witness)
 
 
 length : ∀ {A : Set} → List A → ℕ

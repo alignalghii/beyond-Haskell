@@ -1,6 +1,6 @@
 module MyData.Nat where
 
-open import Eq using (_≡_; refl; ≡-symmetry; ≡-transitivity; ≡-congruence)
+open import Connectives.Eq using (_≡_; refl; ≡-symmetry; ≡-transitivity; ≡-congruence)
 
 data ℕ : Set where
     O : ℕ

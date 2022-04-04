@@ -1,8 +1,8 @@
 module Theorems.NatModulo where
 
-open import Combinators using (_∘_)
-open import Eq using (_≡_; refl; ≡-transitivity; ≡-congruence)
-open import Exists using (Exists; witness)
+open import Connectives.Combinators using (_∘_)
+open import Connectives.Eq using (_≡_; refl; ≡-transitivity; ≡-congruence)
+open import Connectives.Exists using (Exists; witness)
 
 open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
 open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)

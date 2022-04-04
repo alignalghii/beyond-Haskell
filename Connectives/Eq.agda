@@ -1,4 +1,4 @@
-module Eq where
+module Connectives.Eq where
 
 infix 4 _≡_
 data _≡_ {A : Set} : A → A → Set where

@@ -2,8 +2,8 @@ module Theorems.ListCatamorphism where
 
 open import MyData.List using (List; _∷_; []; foldr)
 open import MyData.List using (List; _∷_; []; foldr)
-open import Eq using (_≡_; refl; ≡-congruence)
-open import Combinators using (_∘_)
+open import Connectives.Eq using (_≡_; refl; ≡-congruence)
+open import Connectives.Combinators using (_∘_)
 
 
 catamorphism-identity : ∀ {A : Set} (as : List A) → foldr _∷_ [] as ≡ as

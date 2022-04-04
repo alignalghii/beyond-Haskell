@@ -1,4 +1,4 @@
-module Exists where
+module Connectives.Exists where
 
 data Exists {A : Set} (predicate : A → Set) : Set where
     witness : ∀ (a : A) (proof : predicate a) → Exists predicate

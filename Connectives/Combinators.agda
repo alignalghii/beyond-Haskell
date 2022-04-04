@@ -1,4 +1,4 @@
-module Combinators where
+module Connectives.Combinators where
 
 const : {A B : Set} → A → B → A
 const a _ = a
