@@ -1,4 +1,4 @@
-module List where
+module MyData.List where
 
 
 data List (A : Set) : Set where

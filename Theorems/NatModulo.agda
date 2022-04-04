@@ -1,11 +1,13 @@
-module NatModulo where
+module Theorems.NatModulo where
 
 open import Combinators using (_∘_)
 open import Eq using (_≡_; refl; ≡-transitivity; ≡-congruence)
 open import Exists using (Exists; witness)
 
-open import Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
-open import NatNotation using (№0; №2; №4)
+open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
+open import MyData.Nat using (ℕ; O; S; _+_; +-is-left-recurrible)
+open import MyData.NatNotation using (№0; №2; №4)
+open import MyData.NatNotation using (№0; №2; №4)
 
 
 data Even : ℕ → Set where

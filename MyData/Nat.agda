@@ -1,4 +1,4 @@
-module Nat where
+module MyData.Nat where
 
 open import Eq using (_≡_; refl; ≡-symmetry; ≡-transitivity; ≡-congruence)
 
